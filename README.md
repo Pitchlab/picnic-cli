@@ -2,6 +2,8 @@
 
 CLI for the [Picnic](https://picnic.app) online supermarket. Search products, manage your cart, pick delivery slots, and track deliveries — all from the terminal.
 
+> **Disclaimer:** This is an **unofficial** project and is not affiliated with, endorsed by, or supported by Picnic. It uses an undocumented API through the [`picnic-api`](https://www.npmjs.com/package/picnic-api) package. Use at your own risk — using unofficial API clients **could result in your Picnic account being suspended or banned**. The author accepts no responsibility for any consequences arising from the use of this tool.
+
 > Checkout/payment happens in the Picnic app. This CLI handles everything up to that point.
 
 ## Prerequisites

@@ -4,6 +4,7 @@
 
 ### Documentation
 - Comprehensive README with full usage examples for all commands, setup instructions, global options, output formats, and development guide.
+- Add disclaimer to README: unofficial project, no affiliation with Picnic, risk of account ban, no liability accepted.
 
 ### Changed
 - **Categories**: Rewrote to use page-based API (`/pages/search-page-root`) after Picnic removed `/my_store` endpoint. Extracts categories from PML server-driven UI components.
