@@ -1,0 +1,35 @@
+{
+  "name": "picnic-cli",
+  "version": "0.1.0",
+  "description": "CLI for Picnic online supermarket",
+  "type": "module",
+  "bin": {
+    "picnic": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "vitest run tests/e2e.test.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "picnic-api": "^3.2.0",
+    "commander": "^13.0.0",
+    "conf": "^13.0.0",
+    "chalk": "^5.4.0",
+    "cli-table3": "^0.6.5",
+    "ora": "^8.0.0",
+    "@inquirer/prompts": "^7.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "vitest": "^3.0.0"
+  }
+}
